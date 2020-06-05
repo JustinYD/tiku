@@ -9,7 +9,7 @@ axios.defaults.baseURL = process.env.baseURL || process.env.apiUrl || 'https://a
 // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 let config = {
-    baseURL: process.env.baseURL || process.env.apiUrl || "https://api.smartdk.top",
+    baseURL: process.env.baseURL || process.env.apiUrl || "https://api.smartdk.top", //域名
     timeout: 60 * 1000, // Timeout
     withCredentials: true, // Check cross-site Access-Control
 };
